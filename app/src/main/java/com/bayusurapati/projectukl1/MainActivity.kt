@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
 
     }
+
     override fun onClick(v: View) {
         when (v.id) {
             R.id.btnLogin_activity -> {
